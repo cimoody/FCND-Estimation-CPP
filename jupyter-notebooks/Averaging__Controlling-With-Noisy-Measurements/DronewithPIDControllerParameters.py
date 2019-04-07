@@ -124,7 +124,7 @@ class DronewithPID(CoaxialCopter,PIDController_with_ff):
     def PID_controller_with_estimated_values(self,k_p,k_d,k_i,mass_err,sigma,alpha,use_estimated_height=False):
     
         # creating the co-axial drone object 
-        Controlled_Drone=CoaxialCopter()
+        Controlled_Drone = CoaxialCopter()
         
         # array for recording the state history 
         drone_state_history = Controlled_Drone.X
