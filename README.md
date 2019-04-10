@@ -62,7 +62,7 @@ The final scenario maintained the error in the standard deviation of less than 0
 
 This scenarion (`11_GPSUpdate`), added the final GPS sensor into the Extended Kalman filter after adding in a more realistic IMU by changing several lines in `config/11_GPSUpdate.txt` to:
 ```
-`Quad.UseIdealEstimator = 0`
+Quad.UseIdealEstimator = 0
 #SimIMU.AccelStd = 0,0,0
 #SimIMU.GyroStd = 0,0,0
 ```
