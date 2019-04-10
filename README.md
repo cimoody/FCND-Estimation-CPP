@@ -40,7 +40,7 @@ as compared to the given image:
 
 Then a more realistic scenario with IMU noise was tested using scenario `09_PredictionCov` and updating function `GetRbgPrime()` and `Predict()` in `QuadEstimatorEKF.cpp`.
 
-The final plots capture the original rubric points comparing the given plot where the estimator state track the actual state, with only reasonably slow drift, as shown in the figure below:
+The final plots capture the original rubric points comparing the given plot:
 
 ![predict drift](images/predict-good-cov.png)
 
