@@ -33,11 +33,16 @@ This step implemented the prediction step of the Extended Kalman filter using sc
 
 ![Step 5 Prediction Step (worked in Step 6, as well)](images/solution_images/08_PredictState_NonIdeal_t25p283s.png)
 
+as compared to the given image:
+
+![predict drift](images/predict-slow-drift.png)
+
+
 Then a more realistic scenario with IMU noise was tested using scenario `09_PredictionCov` and updating function `GetRbgPrime()` and `Predict()` in `QuadEstimatorEKF.cpp`.
 
 The final plots capture the original rubric points comparing the given plot where the estimator state track the actual state, with only reasonably slow drift, as shown in the figure below:
 
-![predict drift](images/predict-slow-drift.png)
+![predict drift](images/predict-good-cov.png)
 
 with the created plot:
 
