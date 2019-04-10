@@ -29,7 +29,7 @@ This step used scenario `07_AttitudeEstimation` for completing the code in `Quad
 
 ### Step 3: Prediction Step ###
 
-The state prediction step of the Kalman filter was implemented in this step using scenario `08_PredictState` to test editting of the `PredictState()` functon in `QuadEstimatorEKF.cpp` when the accelerometer was rendered insignificant by setting `QuadEstimatorEKF.attitudeTau = 100` to get the following image:
+The state implemented the prediction step of the Extended Kalman filter using scenario `08_PredictState` to test editting of the `PredictState()` functon in `QuadEstimatorEKF.cpp` when the accelerometer was rendered insignificant by setting `QuadEstimatorEKF.attitudeTau = 100` to get the following image:
 
 ![Step 5 Prediction Step (worked in Step 6, as well)](images/solution_images/08_PredictState_NonIdeal_t25p283s.png)
 
